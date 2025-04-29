@@ -1,1 +1,40 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: lightgreen;
+    font-size: 25px;
+}
 
+button {
+    padding: 15px;
+    margin-top: 20px;
+    background-color: maroon;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+#alphabet {
+    margin-top: 30px;
+}
+
+.letter {
+    margin: 5px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.letter.clicked {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+h1 {
+  color: purple;
+}
