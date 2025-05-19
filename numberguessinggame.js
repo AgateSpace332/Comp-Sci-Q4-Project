@@ -15,6 +15,7 @@ function guessNumber() {
     document.getElementById("msg").textContent = "Correct!";
     alert("You win! The number was " + answer);
     document.getElementById("resetBtn").style.display = "inline";
+    <!--https://www.geeksforgeeks.org/html-dom-style-display-property/, I used this feature to make the reset button appear on the page.-->
   }
 
   document.getElementById("attempts").textContent = "Attempts: " + attempts;
