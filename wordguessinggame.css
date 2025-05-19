@@ -33,7 +33,7 @@ button:hover {
 .letter.clicked {
     background-color: gray;
     cursor: not-allowed;
-    <!--https://developer.mozilla.org/en-US/docs/Web/CSS/cursor, I used the cursor feature to make the game better and less stressful for the player-->
+    <!--https://developer.mozilla.org/en-US/docs/Web/CSS/cursor, I used the cursor feature to make the game better and less stressful for the player.-->
 }
 
 h1 {
