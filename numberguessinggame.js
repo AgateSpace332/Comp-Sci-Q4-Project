@@ -3,6 +3,7 @@ var attempts = 0;
 
 function guessNumber() {
   var guess = parseInt(document.getElementById("guess").value);
+  <!--https://www.w3schools.com/jsref/jsref_parseint.asp, I used this feature to convert a string into an integer.-->
   attempts++;
 
   if (isNaN(guess)) {
