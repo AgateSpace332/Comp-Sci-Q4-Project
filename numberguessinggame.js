@@ -6,6 +6,7 @@ function guessNumber() {
   attempts++;
 
   if (isNaN(guess)) {
+    <!--https://www.w3schools.com/jsref/jsref_isnan_number.asp, I used this feature to check if the input is a value or not.-->
     document.getElementById("msg").textContent = "Please enter a number!";
   } else if (guess < answer) {
     document.getElementById("msg").textContent = "Higher!";
