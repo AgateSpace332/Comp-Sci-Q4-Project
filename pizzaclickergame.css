@@ -1,1 +1,33 @@
+body {
+  text-align: center;
+  padding: 20px;
+  background: yellow;
+  font-size: 50px;
+}
 
+h1 {
+  font-size: 35px;
+  color: red;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  color: brown;
+}
+
+button {
+  width: 260px;
+  height: 60px;
+  font-size: 8px;
+  margin: 8px;
+  cursor: pointer;
+  background-color: pink;
+}
+
+button img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
