@@ -19,3 +19,4 @@ setInterval(() => {
   pizzas += oven + chef * 5 + factory * 20 + machine * 50 + robot * 100 + megaFactory * 500 + goldenEgg * 1000 + pizzaTrain * 5000 + pizzaSpaceship * 10000;
   update();
 }, 1000);
+<!--https://www.geeksforgeeks.org/javascript-setinterval-method/, I used the setInterval feature to run a function over and over again every 1 second (1000 milliseconds)-->
