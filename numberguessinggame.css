@@ -1,7 +1,7 @@
 body {
   text-align: center;
   padding-top: 50px;
-  <!--https://www.w3schools.com/css/css_padding.asp, I used this feature to put extra space at the top to make it look nicer.-->
+  /*https://www.w3schools.com/css/css_padding.asp, I used this feature to put extra space at the top to make it look nicer.*/
   background-color: orange;
   font-size: 35px;
 }
