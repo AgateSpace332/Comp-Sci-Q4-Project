@@ -4,7 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  <!--https://www.w3schools.com/cssref/css3_pr_align-items.php, I used the align items feature to makes things inside a box line up in the middle from top to bottom.-->
+  /*https://www.w3schools.com/cssref/css3_pr_align-items.php, I used the align items feature to makes things inside a box line up in the middle from top to bottom.*/
   text-align: center;
   height: 100px;
   margin: 0;
@@ -17,7 +17,7 @@ h1 {
 
 .game-link {
   padding: 12px 24px;
-  <!--https://developer.mozilla.org/en-US/docs/Web/CSS/padding, I used the padding property using 2 values to make space inside the box with the link to make it look nicer. There is a little space up and down and bigger space right and left.-->
+  /*https://developer.mozilla.org/en-US/docs/Web/CSS/padding, I used the padding property using 2 values to make space inside the box with the link to make it look nicer. There is a little space up and down and bigger space right and left.*/
   margin: 10px;
   background: #878787;
   color: beige;
