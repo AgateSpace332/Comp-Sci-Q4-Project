@@ -42,7 +42,7 @@ function guessLetter(letter, button) {
     displayWord();
 
     if (attempts === 0) {
-        <!--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality, I used the strict equality feature to check if two values are exactly the same.-->
+        /*https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality, I used the strict equality feature to check if two values are exactly the same.*/
         alert("Game Over! The word was: " + word);
     } else if (!word.split('').some(letter => !guessedLetters.includes(letter))) {
         alert("You Win! The word was: " + word);
