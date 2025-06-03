@@ -14,7 +14,7 @@ document.getElementById("buy9").onclick = () => { if (pizzas >= 100000) { pizzas
 function update() {
   document.getElementById("count").textContent = pizzas + " Pizzas";
 }
-/*https://www.geeksforgeeks.org/javascript-setinterval-method/, I used the variable and string feature to make the code combine the number from the variable pizzas with the word "Pizzas".*/
+/*https://www.w3schools.com/jsref/prop_node_textcontent.asp, I used the variable and string feature to make the code combine the number from the variable pizzas with the word "Pizzas".*/
 
 setInterval(() => {
   pizzas += oven + chef * 5 + factory * 20 + machine * 50 + robot * 100 + megaFactory * 500 + goldenEgg * 1000 + pizzaTrain * 5000 + pizzaSpaceship * 10000;
