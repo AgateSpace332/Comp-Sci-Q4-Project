@@ -5,6 +5,7 @@ const words = ["happy", "paper", "letter", "water", "dress", "plant", "house", "
 
 function startGame() {
     word = words[Math.floor(Math.random() * words.length)];
+    /*https://www.w3schools.com/JS//js_random.asp, I used the word feature to pick a random word from the list and store it in the word variable.*/
     guessedLetters = [];
     attempts = 6;
     document.getElementById("attempts").textContent = attempts;
@@ -14,6 +15,7 @@ function startGame() {
 
 function displayWord() {
     let wordDisplay = word.split('').map(letter => guessedLetters.includes(letter) ? letter : '_').join(' ');
+    /*https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split, I used the word split feature to build a version of the word with guessed letters shown and the rest as underscores.*/
     document.getElementById('word').textContent = wordDisplay;
 }
 
@@ -27,6 +29,7 @@ function displayAlphabet() {
         letterButton.textContent = letter;
         letterButton.classList.add('letter');
         letterButton.onclick = () => guessLetter(letter, letterButton);
+        /*https://www.w3schools.com/jsref/event_onclick.asp, I used this line so that when you click the button, the game runs a check with that letter and updates the button to show you already tried it.*/
         alphabetDiv.appendChild(letterButton);
     }
 }
